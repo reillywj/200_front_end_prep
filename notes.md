@@ -46,7 +46,9 @@
 - Tell the browser to do something specific with the value given to the attribute
 - Written with "name" and "value"
 
-`<meta charset="utf-8" />`
+```HTML
+<meta charset="utf-8" />
+```
 
 
 ##Styling with CSS
