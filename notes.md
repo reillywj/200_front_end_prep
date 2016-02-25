@@ -92,7 +92,7 @@ color: red;
 - This tells the browser to take the contents of the style element and assume it's CSS
 
 
-###CSS Selectors
+###CSS
 
 - Tells browser what style instructions are to be applied to which elements
 - Special notation for targeting one or more HTML elements by either the element name or some attribute on the alement
@@ -114,6 +114,9 @@ h1 {
   - class can also contain multiple names
   - #id_name to select id
   - .class_name to select class
+  - element.class_name to be more picky
+- When competition on styling, the one written last in the order of styling always wins out.
+  - order of class names does not affect styling
 
 ```HTML
 <p id="id_name">
@@ -127,19 +130,6 @@ h1 {
 }
 ```
 
-### Hex Colors
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### Hex Colors
+- `#f0f099` is known as a hex value
+- <red><green><blue> hex digits to fine-tune color
