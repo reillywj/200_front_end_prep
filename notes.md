@@ -53,6 +53,91 @@
 ---
 ##Styling with CSS
 
+- CSS: Cascading Style Sheets
+  - Instructions for the browser on how to present everything visually
+  - Think: spacing, colors, font styles, and even background images
+
+**Property**
+- property + value pairs:
+- tells browser which aspect of the element's design to change with the supplied value
+
+E.g.
+
+```CSS
+color: red;
+```
+
+**Style Attribute**
+
+- A few HTML attributes are universally available, meaning they can be added to any HTML element
+
+```HTML
+<h1 style="color: orange;">Hello Internet</h1>
+```
+
+- color and font-size
+  - inheritance property: text inside this container also receive its changes
+
+**Text-align**
+
+- Styling inside the HTML element can be cumbersome and not DRY
+
+
+###Style Element in HTML
+
+```HTML
+<style type="text/css"></style>
+```
+
+- This tells the browser to take the contents of the style element and assume it's CSS
+
+
+###CSS Selectors
+
+- Tells browser what style instructions are to be applied to which elements
+- Special notation for targeting one or more HTML elements by either the element name or some attribute on the alement
+
+####Element selector
+
+```HTML
+h1 {
+  color: orange;
+  text-align: center;
+}
+
+####ID and Class Selectors
+
+- two most common methods: class and ID
+  - ID must be unique to all of the ID values
+  - Any number of elements can have the same class name
+  - class can also contain multiple names
+  - #id_name to select id
+  - .class_name to select class
+
+```HTML
+<p id="id_name">
+
+#id_name {
+  font-size: 18px;
+}
+
+.highlight {
+  background-color: #f0f099;
+}
+```
+
+### Hex Colors
+
+
+
+
+
+
+
+
+
+
+
 
 
 
