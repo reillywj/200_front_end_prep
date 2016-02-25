@@ -50,7 +50,7 @@
 <meta charset="utf-8" />
 ```
 
-
+---
 ##Styling with CSS
 
 
