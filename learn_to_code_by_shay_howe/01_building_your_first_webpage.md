@@ -125,8 +125,11 @@ applies to...
 
 ### Referencing CSS
 
-
-
+- Must get our CSS talking to our HTML
+  - need to reference our CSS file within our HTML
+  - Best to include all of our styles in a signle external style sheet, which is referenced from within the `<head>` element of our HTML
+  - Single sheet allows us to use the same styles across an entire website and quickly make changes sitewide
+- reference using the `<link rel="stylesheet" href="main.css">` tag
 
 
 
