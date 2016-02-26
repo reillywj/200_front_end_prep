@@ -61,9 +61,69 @@
 
 - Code validation <a href="http://validator.w3.org/">here</a>
 
+***
 
+### Common CSS Terms
 
+- Selectors
+  - designates exactly which element or elements within our HTML to target and apply styles to
+  - generally target an attribute value, like id (#id_name) or class (.class_name), or just the element(s)
+- Properties
+  - determines the styles that will be applied to that element, such as color, font-size, height, width, etc.
+- Values
+  - setting the property to some style value, like number of pixels, or color name/hexidecimal
 
+### Working with Selectors
+
+- Type Selectors
+  - The following CSS selector will apply the styling to all div elements in the HTML
+
+```CSS
+div {
+  ...
+}
+```
+
+applies to...
+
+```HTML
+<div>1</div>
+<div>2</div>
+```
+
+- Class Selectors
+  - Selects by class, so all elements of that class type will get the designated styling
+
+```CSS
+.awesome {
+  ...
+}
+```
+
+applies to...
+
+```HTML
+<div class="awesome">...</div>
+<a class="awesome" href="www.awesome.com">...</a>
+```
+
+- ID Selectors
+  - Target only one unique element with given ID
+
+```CSS
+#shayhowe {...}
+```
+
+applies to...
+
+```HTML
+<div id="shayhowe">...</div>
+```
+
+- Additional Selectors
+  - Many more advanced selectors exist and are readily available
+
+### Referencing CSS
 
 
 
