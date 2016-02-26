@@ -5,6 +5,7 @@
 
 ### HTML and CSS
 **HTML**: HyperText Markup Language
+
 **CSS**: Cascading Style Sheets
 
 ### Common HTML Terms
