@@ -131,6 +131,15 @@ applies to...
   - Single sheet allows us to use the same styles across an entire website and quickly make changes sitewide
 - reference using the `<link rel="stylesheet" href="main.css">` tag
 
+### Using CSS Resets
+
+- Each web browser has its own default styles for different elements
+- To ensure cross-browser compatibility, CSS resets have become common-place
+- CSS resets
+  - take every common HTML elements with a predefined style and provide one unified style for all browsers
+  - must be at top of style sheet (ensures these are read first and don't override intended stylings)
+  - Eric Meyer's reset is very popular: <a href="http://meyerweb.com/eric/tools/css/reset">Eric Meyer reset</a>
+
 
 
 
