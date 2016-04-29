@@ -326,6 +326,15 @@ p a {
   text-align: right;
 }
 
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.nav li:last-child {
+  margin-right: 0;
+}
+
 .primary-nav {
   font-size: 14px;
   font-weight: 400;
@@ -351,9 +360,24 @@ p a {
   padding-top: 44px;
 }
 
+/*
+ =======================================================
+ Speakers
+ =======================================================
+*/
 
+.speaker-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
 
-
+/* Used for all speakers except the last one. */
+.speaker {
+  margin-bottom: 44px;
+}
 
 
 
