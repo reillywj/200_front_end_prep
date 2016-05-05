@@ -1,6 +1,6 @@
 # Chapter 1
-## Building Your First Web Page
 ***
+## Building Your First Web Page
 
 
 ### HTML and CSS
